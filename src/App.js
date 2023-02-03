@@ -1,12 +1,19 @@
 import './App.css';
+import Title from './components/Title';
+import ToDoForm from './components/ToDoForm'
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React To Do App</h1>
-      </header>
+        
+        <Title />
+        <ToDoForm/>
+       
+       </header>
     </div>
+    
   );
 }
 
